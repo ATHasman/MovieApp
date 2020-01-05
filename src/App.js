@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ActorCard from "./ActorCard/ActorCard"
+import ActorCard from "./Components/ActorCard"
 
 function App() {
   return (
