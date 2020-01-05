@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import ActorsData from '../Data/ActorsData'
 
 export default class ActorCard extends Component {
     constructor(props) {
@@ -17,7 +17,7 @@ export default class ActorCard extends Component {
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+            <Card.Title>{ActorsData[0].firstName}</Card.Title>
                 <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.

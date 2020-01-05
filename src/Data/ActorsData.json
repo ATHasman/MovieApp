@@ -1,0 +1,30 @@
+[
+    {
+        "firstName": "Johnny",
+        "lastName": "Depp",
+        "birthDay": "1963-06-09",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM0ODU5Nzk2OV5BMl5BanBnXkFtZTcwMzI2ODgyNQ@@._V1_UY317_CR4,0,214,317_AL_.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000136/"
+    },
+    {
+        "firstName": "Keanu",
+        "lastName": "Reeves",
+        "birthDay": "1964-09-02",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjUxNDcwMTg4Ml5BMl5BanBnXkFtZTcwMjU4NDYyOA@@._V1_UY317_CR15,0,214,317_AL_.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000206/"
+    },
+    {
+        "firstName": "Arnold",
+        "lastName": "Schwarzenegger",
+        "birthDay": "1947-07-30",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI3MDc4NzUyMV5BMl5BanBnXkFtZTcwMTQyMTc5MQ@@._V1_UY317_CR19,0,214,317_AL_.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000216/"
+    },
+    {
+        "firstName": "",
+        "lastName": "",
+        "birthDay": "",
+        "image": "",
+        "imdbLink": ""
+    }
+]
