@@ -6,7 +6,6 @@ import ActorCard from "./Components/ActorCard"
 function App() {
   return (
     <div className="App">
-      <h1>Aloha Coder</h1>
       <ActorCard/>
     </div>
   );
