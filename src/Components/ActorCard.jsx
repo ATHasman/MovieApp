@@ -15,22 +15,15 @@ export default class ActorCard extends Component {
         return (   
             <div>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-            <Card.Body>
-            <Card.Title>{`${ActorsData[0].firstName} ${ActorsData[0].lastName}`}</Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                </Card.Text>
-            </Card.Body>
-            <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
-            </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-            </Card.Body>
+                <Card.Img variant="top" src={ActorsData[0].image} />
+                <Card.Body>
+                <Card.Title><Card.Link href={ActorsData[0].imdbLink}>{`${ActorsData[0].firstName} ${ActorsData[0].lastName}`}</Card.Link></Card.Title>
+                <ListGroup className="list-group-flush">
+                    <ListGroupItem>Date of Birth: {ActorsData[0].birthDay}</ListGroupItem>
+                    <ListGroupItem>Age: {ActorsData[0].birthDay}</ListGroupItem>
+                </ListGroup>
+                </Card.Body>
+                
             </Card>
             </div>
           );
